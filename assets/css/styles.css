@@ -1,6 +1,34 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* body styling */
 body {
     background-color: #B5E0C3;
     font-family: 'Merriweather', serif;
+    text-align: center;
+}
+/* logo styling */
+.logo {
+    max-width:10%;
+}
+/* quote area styling */
+#quote-container {
+    text-align: center;
+    margin: 100px;
+}
+/* quote styling */
+#quote {
+    font-size:30px;
+    margin:10px;
+}
+/* author styling */
+#author {
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+}
+/* new quote generator button styling */
+#generate-new-quote {
+    padding: 10px 20px;
+    background-color: beige;
+    border-radius: 30px;
 }
