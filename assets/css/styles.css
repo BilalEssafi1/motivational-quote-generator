@@ -5,6 +5,13 @@ body {
     background-color: #B5E0C3;
     font-family: 'Merriweather', serif;
     text-align: center;
+    min-height:100vh;
+    margin:0;
+    flex-direction: column;
+    display:flex;
+}
+main {
+    flex:1;
 }
 /* logo styling */
 .logo {
@@ -31,4 +38,37 @@ body {
     padding: 10px 20px;
     background-color: beige;
     border-radius: 30px;
+    font-size: 1.5rem;
+}
+
+/*Footer styles */
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+
+footer ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+footer li {
+    font-size: 1.5em;
+    display: inline-block;
+    margin:0 25px;
+}
+
+i {
+    color:white;
+}
+
+@media (max-width:320px) {
+#quote-container {
+    width:50%;
+}
 }
