@@ -50,10 +50,12 @@ const quotes = [
 
 // Function to get a random quote and display it
 function getRandomQuote() {
+    // Generate a random index
     const randomIndex = Math.floor(Math.random()* quotes.length);
+    // Select a random quote from the array
     const randomQuote = quotes[randomIndex];
-        quoteElement.textContent
-    = randomQuote.quote;
+    // Update the quote and author text content
+    quoteElement.textContent = randomQuote.quote;
     authorElement.textContent = `-${randomQuote.author}`;
 }
 newQuoteButton.addEventListener("click", getRandomQuote);
