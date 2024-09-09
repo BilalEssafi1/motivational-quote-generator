@@ -29,19 +29,19 @@ main {
 }
 
 .quote-box {
-    background-color: #f8f8f8;
+    background-color: white;
     padding: 20px;
     border-radius:5px;
-    box-shadow: 02px 4px rgba(0, 0, 0, 0.05)
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.25)
 }
 
 /* quote styling */
 #quote {
-    font-size:30px;
+    font-size:24px;
 }
 /* author styling */
 #author {
-    font-size: 24px;
+    font-size: 20px;
     font-family: cursive;
     font-weight: bold;
 }
@@ -53,6 +53,7 @@ main {
     border-radius: 5px;
     border:none;
     font-size: 1.5rem;
+    margin-top:30px;
 }
 
 #generate-new-quote:hover {
@@ -91,7 +92,7 @@ i {
         padding:20px;
     }
     #quote {
-        font-size: 16px;
+        font-size: 18px;
     }
     #author {
         font-size:14px;
