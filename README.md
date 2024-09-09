@@ -52,6 +52,84 @@ Only the logo image was added to the box to maintain the focus on the quotes.
 
 
 ## Shareable Content
-- Copy to Clipboard: A simple button allows users to easily copy the quote to share it elsewhere.
+A simple "Copy Quote! button allows users to easily copy the quote to share it elsewhere.
 
 ## Footer
+The footer includes social media icons for Facebook, Instagram, Twitter, and YouTube. These icons link to their respective social media platforms and open in a new tab. 
+![Screenshot of footer](assets/images/footer.png)
+
+# Technologies Used
+## Languages
+- HTML: For structuring the app and ensuring all elements are in place.
+- CSS: For styling the app and ensuring a visually appealing, responsive design. 
+- JavaScript: For generating random quotes and enabling the possibility of copying elements to share elsewhere. 
+
+# Frameworks, Libraries, Programs Used
+## Google Fonts
+- The font [Merriweather](https://fonts.google.com/specimen/Merriweather) was imported from [Google Fonts](https://fonts.google.com/). 
+
+## Font Awesome
+- [Font Awesome](https://fontawesome.com/) was used to add social media icons to the footer of all website pages.
+
+## Balsamiq
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes.
+
+## GitPOd
+- [GitPod](https://www.gitpod.io/) was used to write the code for this websitem and to commit and push the code to Github.
+
+## GitHub
+- [GitHub](https://github.com/) was used to store this website.
+
+## GitPages
+- [GitPages](https://pages.github.com/) was used to deploy the website.
+
+# Validator Testing
+
+- HTML
+    - No errors were returned when passing the code through the official W3C validatory [(see screenshot here)](validation.md)
+
+- CSS
+    - No errors were returned when passing the code through the official Jigsaw validator [(see screenshot here)](validation.md)
+
+- JavaScript
+    - No significant issues were returned when passing the code through Jshint [(see screenshot here)](validation.md)
+- Accessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+    ![Screenshot of lighthouse results](assets/images/lighthouse-results.png)
+
+# Deployment
+
+ The site was developed using [GitPod](https://www.gitpod.io/) and pushed to GitHub through a GitPod terminal. To deploy this site, GitHub Pages was used. The steps for deployment are as follows:
+
+- Log in to Github.
+- Locate and click on the right GitHub repository.
+- At the top of the repository, locate and click on Settings.
+- Navigate to the Pages section.
+- Under Source click the drop-down menu und select Main.
+- Click on Save.
+- The page will automatically refresh, and you will receive a link to the deployed website.
+- How to Fork this project:
+
+Log in to GitHub.
+
+Go to the repository for this project: https://github.com/BilalEssafi1/project1-morocco-guide.
+
+Click on the Fork button on the right hand corner.
+
+Select "Create a new fork".
+
+How to Clone this project:
+
+Log in to GitHub.
+
+Go to the repository for this project: https://github.com/BilalEssafi1/project1-morocco-guide.
+
+Click the green Code button.
+
+Under the "Clone" section, you will see the repository URL. You can choose between HTTPS, SSH, or GitHub CLI.
+
+Click the clipboard icon next to the URL to copy the link.
+
+Open the terminal in your code editor and change the working directory using the cd command to the location where you want to clone the repository.
+
+Run the git clone command followed by the repository URL you copied, and press Enter.
