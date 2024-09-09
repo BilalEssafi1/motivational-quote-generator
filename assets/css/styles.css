@@ -20,12 +20,24 @@ main {
 /* quote area styling */
 #quote-container {
     text-align: center;
-    margin: 100px;
+    background-color: white;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    padding:30px;
+    border-radius:10px;
 }
+
+.quote-box {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius:5px;
+    box-shadow: 02px 4px rgba(0, 0, 0, 0.05)
+}
+
 /* quote styling */
 #quote {
     font-size:30px;
-    margin:10px;
 }
 /* author styling */
 #author {
@@ -36,14 +48,20 @@ main {
 /* new quote generator button styling */
 #generate-new-quote {
     padding: 10px 20px;
-    background-color: beige;
-    border-radius: 30px;
+    background-color: #059669;
+    color:white;
+    border-radius: 5px;
+    border:none;
     font-size: 1.5rem;
+}
+
+#generate-new-quote:hover {
+    background-color: darkgreen;
 }
 
 /*Footer styles */
 footer {
-    background-color: grey;
+    background-color: darkgreen;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -67,8 +85,19 @@ i {
     color:white;
 }
 
-@media (max-width:320px) {
-#quote-container {
-    width:50%;
-}
+@media (max-width: 768px)) {
+    #quote-container: {
+        width:90%;
+        padding:20px;
+    }
+    #quote {
+        font-size: 20px;
+    }
+    #author {
+        font-size:16px;
+    }
+    #generate-new-quote {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
 }
