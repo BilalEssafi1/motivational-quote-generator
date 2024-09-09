@@ -87,14 +87,14 @@ i {
 
 @media (max-width: 768px)) {
     #quote-container: {
-        width:90%;
+        width:80%;
         padding:20px;
     }
     #quote {
-        font-size: 20px;
+        font-size: 16px;
     }
     #author {
-        font-size:16px;
+        font-size:14px;
     }
     #generate-new-quote {
         font-size: 1rem;
