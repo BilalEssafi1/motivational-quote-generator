@@ -108,7 +108,7 @@ i {
 
 /* Media query for responsive design */ 
 @media (max-width: 768px) {
-    #quote-container: {
+    #quote-container {
         width:80%;
         padding:20px;
     }
