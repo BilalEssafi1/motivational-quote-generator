@@ -16,7 +16,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:vcolumn;
+    flex-direction:column;
 }
 /* Logo styling */
 .logo {
@@ -26,7 +26,6 @@ main {
 #quote-container {
     text-align: center;
     background-color: white;
-    margin: 10% auto;
     width: 80%;
     max-width: 600px;
     padding:30px;
@@ -108,7 +107,7 @@ i {
 }
 
 /* Media query for responsive design */ 
-@media (max-width: 768px)) {
+@media (max-width: 768px) {
     #quote-container: {
         width:80%;
         padding:20px;
