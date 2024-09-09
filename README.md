@@ -3,6 +3,8 @@
 
 The QuoteDaily website is a simple and intuitive web application that provides users with inspiring and uplifting quotes at the click of a button. Whether you're looking for daily motivation, positivity, or just a little encouragement, this tool is designed to brighten your day with carefully selected quotes. 
 
+![Screenshot of responsive design of the website](assets/images/responsive-design.png)
+
 ## User Experience
 ### Project Goals
 The primary goal of the Quote Daily website is to offer users a seamless way to access motivational quotes quickly and easily. Whether a user needs a quick boost or is looking to share a quote with friends, the interface is designed to be fast, clean, and engaging.
@@ -19,3 +21,21 @@ The primary goal of the Quote Daily website is to offer users a seamless way to 
 #### Returning Visitor Goals:
 - As a returning visitor, I want to see new motivational quotes that I haven't encountered before. 
 
+# Wireframes
+The initial design of the website for mobile, tablet and desktop was created using Balsamiq, a tool specifically designed for creating wireframes.
+
+## Wireframe Desktop
+![Screenshot of wireframe for desktop](assets/images/wireframe-desktop.png)
+
+## Wireframe Tablet
+![Screenshot of wireframe for tablet](assets/images/wireframe-tablet.png)
+
+## Wireframe Mobile
+![Screenshot of wireframe for mobile](assets/images/wireframe-mobile.png)
+
+# Design
+## Color Scheme
+The color palatte consists of soft and uplifting green colors such as pastel and darkgreen. The colors evoke positivity and calm, aligning with the goal of providing a positive and motivational user experience. 
+
+## Typography
+The app uses 
