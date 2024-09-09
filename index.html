@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta tags for search engines-->
+    <meta name="description" content="QuoteDaily provides a daily dose of motivational quotes to inspire and energize you.">
+    <meta name="keywords" content="motivational quotes, daily quotes, inspiration, quote generator, uplifting quotes, motivational sayings, daily inspiration">
     <link href="assets/css/styles.css" rel="stylesheet">
     <title>QuoteDaily</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
-    <main>
-        <!--quote content-->
+    <main role="main">
+        <!--Main content area containing the quote generator-->
         <div id="quote-container">
             <h1 class="heading">
-                <!--quote container title-->
-                <img class="logo" src="assets/images/logo.png" alt="logo">Motivational Quote Generator</h1>
+                <!--Site logo and title-->
+                <img class="logo" src="assets/images/logo.png" alt="logo">QuoteDaily logo</h1>
             <p id="description">Need a motivational boost? Click the button below to generate a random motivational quote. Let these words inspire and energize you throughout the day!</p>
             <div class="quote-box">
                 <p id="quote">Your motivational quote will appear here!</p>
                 <p id="author"></p>
             </div>
-                    <!--quote generator button-->
-        <button id="generate-new-quote">Generate New Quote</button>
+        <!--Button to generate a new quote-->
+        <button id="generate-new-quote" aria-label="Generate a new motivational quote">Generate New Quote</button>
         </div>
 
     </main>
     <footer>
+        <!--Footer with social media links created with symbols from fontawesome Code Institute's Love Running Project https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode-->
         <ul>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook fa-white"></i></a></li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
@@ -33,7 +38,7 @@
         <p class="footer-text">© 2024 QuoteDaily. All Rights Reserved.</p>
         </footer>
     <script src="assets/js/script.js" rel="script"></script>
-    <!--font awesome kit-->
+    <!--Font awesome kit-->
     <script src="https://kit.fontawesome.com/6a11f3d30c.js" crossorigin="anonymous"></script>
 </body>
 </html>
