@@ -1,6 +1,6 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-/* body styling */
+/* Body styling */
 body {
     background-color: #B5E0C3;
     font-family: 'Merriweather', serif;
@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     display:flex;
 }
+/* Main content area styling */
 main {
     flex:1;
     display: flex;
@@ -17,11 +18,11 @@ main {
     align-items: center;
     flex-direction:vcolumn;
 }
-/* logo styling */
+/* Logo styling */
 .logo {
     max-width:10%;
 }
-/* quote area styling */
+/* Quote area styling */
 #quote-container {
     text-align: center;
     background-color: white;
@@ -31,11 +32,13 @@ main {
     padding:30px;
     border-radius:10px;
 }
+/* Description styling*/
 
 #description {
     color: grey;
 }
 
+/* Quote box styling */
 .quote-box {
     background-color: white;
     padding: 20px;
@@ -48,17 +51,18 @@ main {
     flex-direction:column;
 }
 
-/* quote styling */
+/* Quote Styling */
 #quote {
     font-size:20px;
 }
-/* author styling */
+
+/* Author styling */
 #author {
     font-size: 18px;
     font-family: cursive;
     font-weight: bold;
 }
-/* new quote generator button styling */
+/* Button styling */
 #generate-new-quote {
     padding: 10px 20px;
     background-color: #059669;
@@ -73,7 +77,7 @@ main {
     background-color: darkgreen;
 }
 
-/*Footer styles */
+/* Footer styling */
 footer {
     background-color: darkgreen;
     color: white;
@@ -83,22 +87,27 @@ footer {
     flex-shrink: 0;
 }
 
+/* Footer list styling */ 
+
 footer ul {
     list-style-type:none;
     margin:0;
     padding:0;
 }
-
+/* Footer list item styling */
 footer li {
     font-size: 1.5em;
     display: inline-block;
     margin:0 25px;
 }
 
+
+/* Social media icon styling */
 i {
     color:white;
 }
 
+/* Media query for responsive design */ 
 @media (max-width: 768px)) {
     #quote-container: {
         width:80%;
