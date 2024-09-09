@@ -60,14 +60,17 @@ function getRandomQuote() {
     authorElement.textContent = `-${randomQuote.author}`;
 }
 newQuoteButton.addEventListener("click", getRandomQuote);
-
+// Add event listener to the copy button to copy the displayed quote and author
 copyButton.addEventListener('click', () => {
     console.log("Copy button clicked"); 
-    
+    // Get the current quote and author text content
     const quote = document.getElementById('quote').textContent;
     const author = document.getElementById('author').textContent;
+
+    // Combine the quote and author into a single string to copy
     const textToCopy = `${quote} ${author}`;
     
+    // Clipboard API to copy the text to the clipboard
     navigator.clipboard.writeText(textToCopy)
         .then(() => {
             console.log("Text copied: ", textToCopy); 
