@@ -38,4 +38,12 @@ The initial design of the website for mobile, tablet and desktop was created usi
 The color palatte consists of soft and uplifting green colors such as pastel and darkgreen. The colors evoke positivity and calm, aligning with the goal of providing a positive and motivational user experience. 
 
 ## Typography
-The app uses 
+The website uses a combination of serif and cursive fonts to create a balance between readibility and creativity. For the main text, the serif font Merriweather is uses, known for its classic, formal appearance and excellent readibility. In contrast, a cursive font is used for the author's name, adding a personal creative touch.
+
+## Imagery
+Only the logo image was added to the box to maintain the focus on the quotes.
+
+# Features
+## Quote Generator
+- Random Quotes: A button generates a new random motivational quote from a curated libary. 
+- Dynamic UI: The interface updates seamlessly without reloading the page, ensuring a smooth user experience. 
