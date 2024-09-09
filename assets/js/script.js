@@ -1,7 +1,9 @@
+// Get reference to DOM elements
 const quoteElement = document.getElementById('quote');
 const authorElement = document.getElementById('author');
 const newQuoteButton = document.getElementById('generate-new-quote');
 
+// Array of motivational quotes
 const quotes = [
     {
         quote:"If you believe it will work, you'll see opportunities. If you believe it won't, you will see obstacles.",
@@ -9,7 +11,7 @@ const quotes = [
     }, 
     {
         quote:"Believe you can and you're halfway there.",
-        author:"Theodore Roosevel"
+        author:"Theodore Roosevelt"
     },
     {
         quote:"Do one thing every day that scares you.",
@@ -46,6 +48,7 @@ const quotes = [
     }
 ];
 
+// Function to get a random quote and display it
 function getRandomQuote() {
     const randomIndex = Math.floor(Math.random()* quotes.length);
     const randomQuote = quotes[randomIndex];
