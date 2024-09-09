@@ -62,17 +62,24 @@ main {
     font-weight: bold;
 }
 /* Button styling */
-#generate-new-quote {
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+#generate-new-quote, #copy-quote {
     padding: 10px 20px;
     background-color: #059669;
     color:white;
     border-radius: 5px;
     border:none;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
     margin-top:30px;
 }
 
-#generate-new-quote:hover {
+#generate-new-quote:hover, #copy-quote:hover {
     background-color: darkgreen;
 }
 
@@ -118,11 +125,22 @@ i {
     #author {
         font-size:12px;
     }
-    #generate-new-quote {
+    #generate-new-quote, #copy-quote {
         font-size: 1rem;
         padding: 10px 20px;
     }
     h1 {
         font-size:20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        flex-direction:column;
+        align-items: center;
+    }
+    #generate-new-quote, #copy-quote {
+        width: 100%;
+        max-width: 200px;
     }
 }

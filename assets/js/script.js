@@ -2,6 +2,7 @@
 const quoteElement = document.getElementById('quote');
 const authorElement = document.getElementById('author');
 const newQuoteButton = document.getElementById('generate-new-quote');
+const copyButton = document.getElementById('copy-quote');
 
 // Array of motivational quotes
 const quotes = [
@@ -59,3 +60,23 @@ function getRandomQuote() {
     authorElement.textContent = `-${randomQuote.author}`;
 }
 newQuoteButton.addEventListener("click", getRandomQuote);
+
+copyButton.addEventListener('click', () => {
+    console.log("Copy button clicked"); 
+    
+    const quote = document.getElementById('quote').textContent;
+    const author = document.getElementById('author').textContent;
+    const textToCopy = `${quote} ${author}`;
+    
+    navigator.clipboard.writeText(textToCopy)
+        .then(() => {
+            console.log("Text copied: ", textToCopy); 
+            copyButton.textContent = 'Copied';
+            setTimeout(() => {
+                copyButton.textContent = 'Copy Quote';
+            }, 2000);
+        })
+        .catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+});
