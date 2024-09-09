@@ -37,11 +37,11 @@ main {
 
 /* quote styling */
 #quote {
-    font-size:24px;
+    font-size:20px;
 }
 /* author styling */
 #author {
-    font-size: 20px;
+    font-size: 18px;
     font-family: cursive;
     font-weight: bold;
 }
@@ -92,10 +92,10 @@ i {
         padding:20px;
     }
     #quote {
-        font-size: 18px;
+        font-size: 16px;
     }
     #author {
-        font-size:14px;
+        font-size:12px;
     }
     #generate-new-quote {
         font-size: 1rem;
