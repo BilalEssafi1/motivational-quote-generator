@@ -28,6 +28,10 @@ main {
     border-radius:10px;
 }
 
+#description {
+    color: grey;
+}
+
 .quote-box {
     background-color: white;
     padding: 20px;
