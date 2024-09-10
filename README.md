@@ -59,6 +59,7 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
 
 ![Screenshot of footer](assets/images/footer.png)
 
+
 # Technologies Used
 ## Languages
 - HTML: For structuring the app and ensuring all elements are in place.
@@ -84,10 +85,19 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
 ## GitPages
 - [GitPages](https://pages.github.com/) was used to deploy the website.
 
-# Validator Testing
+# Testing
+## Browser Testing
+- I tested the quote generator in multiple browsers, including Chrome, Safari, and Firefox, to ensure cross-browser compatibility.
+
+## Functionality Testing
+- I confirmed that clicking the "Generate New Quote" button successfully generates a new quote.
+- I verified that the "Copy Quote" button allows users to copy the current quote to the clipboard.
+- I confirmed that the social media links in the footer work correctly, opening the respective platforms in a new window when clicked.
+
+## Validator Testing
 
 - HTML
-    - No errors were returned when passing the code through the official W3C validatory [(see screenshot here)](validation.md)
+    - No errors were returned when passing the code through the official W3C validator[(see screenshot here)](validation.md)
 
 - CSS
     - No errors were returned when passing the code through the official Jigsaw validator [(see screenshot here)](validation.md)
@@ -96,7 +106,7 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
     - No significant issues were returned when passing the code through Jshint [(see screenshot here)](validation.md)
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
-    
+
     ![Screenshot of lighthouse results](assets/images/lighthouse-results.png)
 
 # Deployment
