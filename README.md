@@ -16,10 +16,10 @@ The primary goal of the Quote Daily website is to offer users a seamless way to 
 ### User Stories
 #### First-Time Visitor Goals:
 - As a first-time visitor, I want to easily understand the purpose of the app and how to generate quotes. 
-- As a first-time visitor, I want to be able to generate a new quote and copy the ones I like with minimal interaction, so I can efficiently share inspirational quotes without unnecessary steps.
+- As a first-time visitor, I want to be able to generate a new quote, add them to my favorite list and copy the ones I like with minimal interaction, so I can efficiently share inspirational quotes and remember those I liked without unnecessary steps.
 
 #### Returning Visitor Goals:
-- As a returning visitor, I want to see new motivational quotes and copy the ones I like, so I can share inpirational quotes wihtout unnecessary steps. 
+- As a returning visitor, I want to see new motivational quotes and copy and save the ones I like, so I can share inpirational quotes wihtout unnecessary steps. 
 
 # Wireframes
 The initial design of the website for mobile, tablet and desktop was created using Balsamiq, a tool specifically designed for creating wireframes.
@@ -48,16 +48,21 @@ Only the logo image was added to maintain the focus on the quotes.
 - Random Quotes: A button generates a new random motivational quote from a curated libary. 
 - Dynamic UI: The interface updates seamlessly without reloading the page, ensuring a smooth user experience. 
 
-![Screenshot of quote generator](assets/images/quote-generator.png)
+![Screenshot of Quote Generator](assets/images/quote-generator.png)
 
 
-## Shareable Content
+## Copy Button
 A simple "Copy Quote" button allows users to easily copy the quote to share it elsewhere.
+
+## Add to Favorites List
+A simple 'Add to Favorites' button lets users save their favorite quotes to a separate list. This list provides additional options for users to copy the quote for sharing or delete it if they no longer wish to keep it. The system ensures no duplicates, meaning each quote can only appear in the favorites list once.
+
+![Screenshot of Favorites List](assets/images/favorites-list.png)
 
 ## Footer
 The footer includes social media icons for Facebook, Instagram, Twitter, and YouTube. These icons link to their respective social media platforms and open in a new tab. 
 
-![Screenshot of footer](assets/images/footer.png)
+![Screenshot of Footer](assets/images/footer.png)
 
 
 # Technologies Used
@@ -92,6 +97,9 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
 ## Functionality Testing
 - I confirmed that clicking the "Generate New Quote" button successfully generates a new quote.
 - I verified that the "Copy Quote" button allows users to copy the current quote to the clipboard.
+- I verified that the "Add to Favorites" button allows users to save a list with their favorite quotes.
+- I confirmed that the "Copy" button in the "Favorite Quote" list allows users to copy the current quote to the clipboard.
+- I verified that the "Delete" button in the "Favorite Quote" list allows users to delete a saved quote from the list. 
 - I confirmed that the social media links in the footer work correctly, opening the respective platforms in a new window when clicked.
 
 ## Validator Testing
