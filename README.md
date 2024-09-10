@@ -19,7 +19,7 @@ The primary goal of the Quote Daily website is to offer users a seamless way to 
 - As a first-time visitor, I want to be able to generate a new quote and copy the ones I like with minimal interaction, so I can efficiently share inspirational quotes without unnecessary steps.
 
 #### Returning Visitor Goals:
-- As a returning visitor, I want to see new motivational quotes that I haven't encountered before and copy the ones I like, so I can share inpirational quotes wihtout unnecessary steps. 
+- As a returning visitor, I want to see new motivational quotes and copy the ones I like, so I can share inpirational quotes wihtout unnecessary steps. 
 
 # Wireframes
 The initial design of the website for mobile, tablet and desktop was created using Balsamiq, a tool specifically designed for creating wireframes.
@@ -41,7 +41,7 @@ The color palatte consists of soft and uplifting green colors such as pastel and
 The website uses a combination of serif and cursive fonts to create a balance between readibility and creativity. For the main text, the serif font Merriweather is uses, known for its classic, formal appearance and excellent readibility. In contrast, a cursive font is used for the author's name, adding a personal creative touch.
 
 ## Imagery
-Only the logo image was added to the box to maintain the focus on the quotes.
+Only the logo image was added to maintain the focus on the quotes.
 
 # Features
 ## Quote Generator
@@ -52,10 +52,11 @@ Only the logo image was added to the box to maintain the focus on the quotes.
 
 
 ## Shareable Content
-A simple "Copy Quote! button allows users to easily copy the quote to share it elsewhere.
+A simple "Copy Quote" button allows users to easily copy the quote to share it elsewhere.
 
 ## Footer
 The footer includes social media icons for Facebook, Instagram, Twitter, and YouTube. These icons link to their respective social media platforms and open in a new tab. 
+
 ![Screenshot of footer](assets/images/footer.png)
 
 # Technologies Used
@@ -95,6 +96,7 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
     - No significant issues were returned when passing the code through Jshint [(see screenshot here)](validation.md)
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+    
     ![Screenshot of lighthouse results](assets/images/lighthouse-results.png)
 
 # Deployment
