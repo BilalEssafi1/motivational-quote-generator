@@ -108,28 +108,29 @@ The footer includes social media icons for Facebook, Instagram, Twitter, and You
 - Under Source click the drop-down menu und select Main.
 - Click on Save.
 - The page will automatically refresh, and you will receive a link to the deployed website.
-- How to Fork this project:
 
-Log in to GitHub.
+How to Fork this project:
+- Log in to GitHub.
+- Go to the repository for this project: https://github.com/BilalEssafi1/motivational-quote-generator.git
+- Click on the Fork button on the right hand corner.
+- Select "Create a new fork".
+- How to Clone this project:
+- Log in to GitHub.
+- Go to the repository for this project: https://github.com/BilalEssafi1/motivational-quote-generator.git
+- Click the green Code button.
+- Under the "Clone" section, you will see the repository URL. You can choose between HTTPS, SSH, or GitHub CLI.
+- Click the clipboard icon next to the URL to copy the link.
+- Open the terminal in your code editor and change the working directory using the cd command to the location where you want to clone the repository.
+- Run the git clone command followed by the repository URL you copied, and press Enter.
 
-Go to the repository for this project: https://github.com/BilalEssafi1/project1-morocco-guide.
+# Credits
+## Content:
+- The Icons used for the Footer were taken from [Font Awesome](https://fontawesome.com/).
+- The font for the website was taken from [Google Fonts](https://fonts.google.com/).
+- The motivational quotes were taken from [Wix.com](https://www.wix.com/blog/motivational-quotes?utm_source=google&utm_medium=cpc&utm_campaign=21361709018^168955277451^search%20-%20dsa&experiment_id=^^701641900039^&gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8pdQmLTQa3gRd3UNDnTEjYAf9VMaE_NodMFW691KSAqH-vUwCuxUJhoC4v0QAvD_BwE).
 
-Click on the Fork button on the right hand corner.
+## Media:
+- The logo was taken from [Flaticon](https://www.flaticon.com/de/kostenloses-icon/motivation_584641).
 
-Select "Create a new fork".
-
-How to Clone this project:
-
-Log in to GitHub.
-
-Go to the repository for this project: https://github.com/BilalEssafi1/project1-morocco-guide.
-
-Click the green Code button.
-
-Under the "Clone" section, you will see the repository URL. You can choose between HTTPS, SSH, or GitHub CLI.
-
-Click the clipboard icon next to the URL to copy the link.
-
-Open the terminal in your code editor and change the working directory using the cd command to the location where you want to clone the repository.
-
-Run the git clone command followed by the repository URL you copied, and press Enter.
+## Code
+The footer code is originally based on the [Love Running Project](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md), while the copy-to-clipboard functionality follows the instructions from this [Medium article](https://medium.com/@rakviashvili95/two-methods-of-copy-to-clipboard-by-javascript-60a288136c68).
