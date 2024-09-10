@@ -22,11 +22,17 @@
                 <p id="quote">Your motivational quote will appear here!</p>
                 <p id="author"></p>
             </div>
-        <!--Button to generate and copy a quote-->
+        <!--Button to generate and copy quote as well as add to favorite list-->
             <div class="button-container"> 
+                <button id="favorite-quote" aria-label="Add quote to favorites">&#9733; Add to Favorites</button>
                 <button id="generate-new-quote" aria-label="Generate a new motivational quote">Generate New Quote</button>
                 <button id="copy-quote" aria-label="Copy quote to clipboard">Copy Quote</button>
             </div>
+        </div>
+        <!--List with favorite quotes-->
+        <div id="favorites-container">
+            <h3>Favorite Quotes</h3>
+            <ul id="favorites-list"></ul>
         </div>
 
     </main>

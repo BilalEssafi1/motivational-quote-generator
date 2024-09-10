@@ -83,6 +83,71 @@ main {
     background-color: darkgreen;
 }
 
+#favorite-quote {
+    font-size: 1rem;
+    background:none;
+    border: none;
+    color:gold;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+#favorite-quote:hover {
+    color: darkorange;
+}
+
+/* Favorites container styling */
+#favorites-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.25);
+    text-align: left;
+    max-height: 300px;
+}
+
+#favorites-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+
+#favorites-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+#favorites-list li {
+    background-color: #f0f4f8;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#favorites-list li button {
+    background-color: #059669;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer; 
+    margin-left:10px;
+}
+
+#favoirtes-list li button:hover {
+    color: darkgreen;
+}
+
 /* Footer styling */
 footer {
     background-color: darkgreen;
